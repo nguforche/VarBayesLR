@@ -1,0 +1,24 @@
+Package: VarBayesLR
+Title: Variational Bayesian Logistic Regression   
+Version: 0.0.1
+Authors@R: person("Che", "Ngufor", email = "Ngufor.Che@mayo.edu", 
+	role = c("aut", "cre"))
+Description: Use variational approximation to fit a classification model with a  
+	logistic loss function. Predicted probabilities can be approximated with 
+	Mackay approximation technique (see David J. C. MacKay, "The evidence 
+	framework applied to classification networks"). 
+Depends: R (>= 3.1.2)
+Imports: 
+    PresenceAbsence,
+    matrixcalc,
+    mvtnorm
+License: GPL(>= 3)
+LazyData: true
+NeedsCompilation: no
+
+
+
+
+
+
+
